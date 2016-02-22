@@ -1,0 +1,65 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Vorlesung2015" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Vorlesung2015" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Vorlesung2015" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Vorlesung2015" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="Vorlesung2015" name="unnamed" />
+  <ProjectSessionItem path="Vorlesung2015;Vorlesung2015" name="unnamed" />
+  <ProjectSessionItem path="Vorlesung2015;Vorlesung2015;Source Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="AD;AD/ADCR;AD/ADDR3;GPIO;PCB;PWM;PWM/PWMTCR;PWM/PWMPCR;PWM/PWMLER;SCB;SCB/PLLCFG;UART0;UART0/U0LSR;VIC" binaryNodes="GPIO/IO0PIN;GPIO/IO0SET" hiddenNodes="" unsignedNodes="PWM/PWMMR0;PWM/PWMMR3" visibleGroups="GPIO;PCB;SCB;PWM;AD;VIC;UART0" decimalNodes="" octalNodes="" asciiNodes="" name="Vorlesung2015" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" name="Vorlesung2015" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" name="Vorlesung2015" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" name="Vorlesung2015" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never" >
+   <Watchpoint linenumber="147" radix="16" name="T0CR2" expression="T0CR2" filename="c:/users/eric/documents/crossworks projects/buschprojekt/main.c" />
+   <Watchpoint linenumber="152" radix="-1" name="btn_down" expression="btn_down" filename="c:/users/eric/documents/crossworks projects/buschprojekt/main.c" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Users\janwe\Documents\CrossWorks Projects\BuschProjekt\another_main.c" y="45" path="C:\Users\janwe\Documents\CrossWorks Projects\BuschProjekt\another_main.c" left="0" selected="1" name="unnamed" top="43" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="Vorlesung2015" autoConnectTarget="Olimex ARM-USB-OCD" debugSearchFileMap="C:\Users\products\build\crossworks\arm\crossworks_v2\shared\target\libarm\libarm_dcc_read.s
+
+C:\Users\products\build\crossworks\arm\crossworks_v2\shared\target\libarm\libarm_dcc_write.s
+
+C:\Users\products\build\crossworks\arm\crossworks_v2\shared\target\libc\arm\strlen.asm
+
+C:\Users\products\build\crossworks\arm\crossworks_v2\shared\target\libdebugio\arm\debug_printf.s
+" fileDialogInitialDirectory="C:\Users\Eric\Documents\CrossWorks Projects\BuschProjekt" fileDialogDefaultFilter="*.c" autoConnectCapabilities="388479" debugSearchPath="" buildConfiguration="ARM Flash Debug" />
+</session>
