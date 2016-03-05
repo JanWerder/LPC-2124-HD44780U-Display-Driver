@@ -35,6 +35,7 @@ void LCD_WriteChar(char c)
 void LCD_WriteString(char * string)
 {
         LCD_Init();
+        LCD_Clear();
 	int c=0;
 	while (string[c]!='\0') // Schreibe bis der String am Ende ist
 	{
@@ -82,4 +83,22 @@ void LCD_Clear()
 void LCD_Linebreak()
 {
 	LCD_Cmd(0x8000 + 0x4000); //Gehe in die zweite Zeile
+}
+
+
+char s[10] ="";
+
+LCD_AppendCharToScreen(char c)
+{  
+  append(s,c);
+  //debug_printf("%s", s);
+  LCD_WriteString(s);
+}
+
+
+void append(char* s, char c)
+{
+        int len = strlen(s);
+        s[len] = c;
+        s[len+1] = '\0';
 }
