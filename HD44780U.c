@@ -12,14 +12,14 @@ void LCD_Cmd(unsigned int cmd)
 
 void LCD_Enable(void)
 {
-    delay();
+    LCD_delay();
     IO1PIN |=  (1<<17);//High
-    delay();
+    LCD_delay();
     IO1PIN &= ~(1<<17);//Low
-    delay();
+    LCD_delay();
 }
 
-void delay(void)
+void LCD_delay(void)
 {
     int i=0,x=0;
     for(i=0; i<19999; i++){ x++; }
@@ -45,7 +45,7 @@ void LCD_WriteString(char * string)
             }
             if(characterCount == 33){
               for (int i=0;i<characterNewPageDelay;i++){ //verz?gere den Umbruch auf neue Seite
-                delay();
+                LCD_delay();
               }
               LCD_Init();
               characterCount = 0;
@@ -67,7 +67,7 @@ void LCD_Init()
 
 
     //LCD Init Sequenz
-    delay(); //Anfangsverz?gerung
+    LCD_delay(); //Anfangsverz?gerung
         LCD_Cmd(0x3C00);//Setzte das "Function Set" : 8 Bit Mode , 2 Zeilen , 5x10
         LCD_Cmd(0x0F00);//Setze den "Display Switch" : Display an , Cursor an , Blinken an
 }
