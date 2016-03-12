@@ -2,9 +2,6 @@
     The LCD driver.
 */
 
-#ifndef _HD44780U_H
-#define _HD44780U_H
-
 
 #include <targets/LPC2000.h>
 
@@ -29,5 +26,3 @@ void LCD_AppendCharToScreen(char c);
 
 void LCD_ClearBuffer(void);
 
-
-#endif
